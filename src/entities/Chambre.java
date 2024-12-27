@@ -36,4 +36,13 @@ public class Chambre {
     public void setCategorie(Categorie categorie) {
         this.categorie = categorie;
     }
+
+    @Override
+    public String toString() {
+        return "Chambre{" +
+                "id=" + id +
+                ", telephone='" + telephone + '\'' +
+                ", categorie=" + categorie +
+                '}';
+    }
 }

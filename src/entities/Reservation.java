@@ -46,4 +46,14 @@ public class Reservation {
     public void setChambre(Chambre chambre) {
         this.chambre = chambre;
     }
+
+    @Override
+    public String toString() {
+        return "Reservation{" +
+                "datedebut=" + datedebut +
+                ", datefin=" + datefin +
+                ", client=" + client +
+                ", chambre=" + chambre +
+                '}';
+    }
 }
